@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+
+
+
+@media screen and (max-width: 600px){
+    ul{
+        li{
+            gap: 5px;
+            font-size: 10px;
+        }
+    }
+
+h1{
+    font: 100px;
+}
+
+.main{
+
+    padding: 12px;
+}
+ 
+
+.beauty{
+    margin-right: 90px;
+}
+
+}
