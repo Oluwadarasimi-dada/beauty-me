@@ -17,13 +17,15 @@ h1{
 }
 
 .main{
+padding: 12px;
 
-    padding: 12px;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
 }
+
  
 
-.beauty{
-    margin-right: 90px;
-}
 
 }
