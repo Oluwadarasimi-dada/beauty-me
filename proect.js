@@ -1,3 +1,29 @@
+const menu = document.getElementById('menu')
+const menuBar = () => {
+
+
+
+menu.classList.toggle("hidden")
+
+}
+
+
+
+    const x = document.getElementById("x")
+
+
+x.addEventListener("click", () => {
+
+menu.classList.toggle("hidden")
+
+
+
+})
+
+
+
+
+
 const treatments = () =>{
 
     const d = document.getElementById("dan")
@@ -13,4 +39,3 @@ else{d.textContent="CONTACT US"
 
 
 }
-
